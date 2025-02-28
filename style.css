@@ -241,6 +241,14 @@ nav {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
+/* change margin for fit icons in small devices */
+
+@media (max-width: 768px){
+    .social-media a{
+        margin: 2rem 0.2rem 3rem 0;
+    }
+}
+
 span {
     color: var(--main-color);
 }
