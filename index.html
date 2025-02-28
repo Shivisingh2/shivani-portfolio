@@ -205,22 +205,23 @@
                 <!-- Hidden input to prevent spam -->
                 <input type="hidden" name="_captcha" value="false">
                 <!-- Redirect after submission -->
-                <input type="hidden" name="_next" value="https://shivanisinghportfolio.netlify.app/thankyou.html">
+                <input type="hidden" name="_next" value="https://shivanisinghportfolio.netlify.app/">
 
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
 
-                <div id="popup-message" class="popup">
+               
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+         <div id="popup-message" class="popup">
                     <div class="popup-content">
                         <p>Thank you! Your message has been sent successfully.</p>
                         <button onclick="closePopup()">OK</button>
                     </div>
-                </div>
+             </div>
 
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
-        </div>
     </section>
 
 
