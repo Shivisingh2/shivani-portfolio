@@ -7,7 +7,7 @@ function scrollToSection() {
 }
 
 // Sticky navigation
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', () => { 
     const nav = document.querySelector('nav');
     if (window.scrollY > 100) {
         nav.classList.add('sticky');
@@ -21,6 +21,14 @@ function toggleMenu() {
     var nav = document.querySelector(".nav-links");
     nav.classList.toggle("active");
 }
+
+// Close menu when clicking on a menu link
+document.querySelectorAll(".nav-links li a").forEach(link => {
+    link.addEventListener("click", () => {
+        document.querySelector(".nav-links").classList.remove("active");
+    });
+});
+
 
 function scrollToSection() {
     document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
