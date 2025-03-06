@@ -298,7 +298,7 @@ span {
 }
 
 .card {
-    background: linear-gradient(blue, var(--main-color),rgb(247, 174, 187);
+    background: linear-gradient(blue, var(--main-color),rgb(247, 174, 187));
     padding: 2rem;
     border-radius: 8px;
     color: #ffffff;
