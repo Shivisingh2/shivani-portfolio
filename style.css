@@ -306,6 +306,11 @@ span {
     max-width: 300px;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.card:hover{
+    transform:scale(1.1);   
 }
 
 .card h3 {
@@ -355,11 +360,15 @@ span {
 }
 
 .skill-category {
-
     background-color: #1f2a36;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.skill-category:hover{
+    transform:scale(1.1);
 }
 
 .skill-category h2 {
@@ -423,6 +432,11 @@ span {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     text-align: left;
+     transition: transform 0.5s ease-in-out;
+}
+
+.project-card:hover{
+    transform:scale(1.1);
 }
 
 .project-card img {
@@ -482,11 +496,15 @@ span {
 }
 
 .image-container {
-
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-container:hover{
+    transform: scale(1.1);  
 }
 
 .animated-photo {
